@@ -1,6 +1,4 @@
 require File.expand_path('pet_factory.rb')
-require File.expand_path('cat.rb')
-require File.expand_path('dog.rb')
 
 cat_params = { name: 'Gato', age: '2', age_time: 'years', color: 'Black' }
 dog_params = { name: 'Perro', age: '5', age_time: 'months', color: 'Golden' }
