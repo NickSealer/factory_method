@@ -1,11 +1,11 @@
 class Pet
   attr_accessor :name, :age, :age_time, :color
 
-  def initialize(args)
-    @name = args[:name]
-    @age = args[:age]
-    @age_time = args[:age_time]
-    @color = args[:color]
+  def initialize(params)
+    @name = params[:name]
+    @age = params[:age]
+    @age_time = params[:age_time]
+    @color = params[:color]
   end
 
   def eat
