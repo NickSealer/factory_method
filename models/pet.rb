@@ -1,5 +1,3 @@
-# Abstract class
-
 class Pet
   attr_accessor :name, :age, :age_time, :color
 
@@ -11,16 +9,15 @@ class Pet
   end
 
   def eat
-    puts "#{self.class} eating..."
+    puts "The #{self.class} is eating..."
   end
 
-  def sleep
-    puts "#{self.class} sleeping zzz..."
+  def info
+    puts "The #{self.class} info:"
+    puts "Name: #{self.name} | Age: #{self.age} #{self.age_time} | Color: #{self.color}"
   end
 
   private
 
-  def who_am_i?
-    puts "Main Class #{self.class}"
-  end
+  def say_hello; end
 end
